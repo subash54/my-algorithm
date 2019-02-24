@@ -1,0 +1,10 @@
+a=int(input("enter the juggler"))
+s=0
+while(s!=1):
+    if a%2==0:
+        s=a**(1/2)
+    else:
+        s=a**(3/2)
+    s=int(s)
+    print(s)
+    a=s
